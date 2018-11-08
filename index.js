@@ -14,7 +14,7 @@ app.use(async ctx => {
 		return;
 	}
 
-	ctx.respond.body = body;
+	ctx.body = body;
 });
 
 app.listen(80);
